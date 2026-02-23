@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+  <rect width="900" height="420" fill="#f8fafc"/>
+  <text x="30" y="44" font-size="28" font-family="Verdana" fill="#0f172a">Adim 3 - Oyun Mantigi (JavaScript)</text>
+
+  <rect x="60" y="90" width="220" height="70" rx="10" fill="#dcfce7" stroke="#16a34a"/>
+  <text x="90" y="130" font-size="18" font-family="Verdana" fill="#14532d">startGame()</text>
+
+  <rect x="340" y="90" width="220" height="70" rx="10" fill="#dbeafe" stroke="#2563eb"/>
+  <text x="365" y="130" font-size="18" font-family="Verdana" fill="#1e3a8a">setInterval(createBalloon)</text>
+
+  <rect x="620" y="90" width="220" height="70" rx="10" fill="#fef9c3" stroke="#ca8a04"/>
+  <text x="663" y="130" font-size="18" font-family="Verdana" fill="#713f12">createBalloon()</text>
+
+  <rect x="620" y="220" width="220" height="70" rx="10" fill="#fee2e2" stroke="#dc2626"/>
+  <text x="648" y="260" font-size="18" font-family="Verdana" fill="#7f1d1d">Balona Tiklanirsa</text>
+
+  <rect x="340" y="320" width="220" height="70" rx="10" fill="#f1f5f9" stroke="#64748b"/>
+  <text x="392" y="360" font-size="18" font-family="Verdana" fill="#334155">Skor Artar</text>
+
+  <line x1="280" y1="125" x2="340" y2="125" stroke="#334155" stroke-width="2"/>
+  <polygon points="338,120 350,125 338,130" fill="#334155"/>
+
+  <line x1="560" y1="125" x2="620" y2="125" stroke="#334155" stroke-width="2"/>
+  <polygon points="618,120 630,125 618,130" fill="#334155"/>
+
+  <line x1="730" y1="160" x2="730" y2="220" stroke="#334155" stroke-width="2"/>
+  <polygon points="725,218 730,230 735,218" fill="#334155"/>
+
+  <line x1="620" y1="255" x2="560" y2="350" stroke="#334155" stroke-width="2"/>
+  <polygon points="563,342 553,360 570,348" fill="#334155"/>
+</svg>

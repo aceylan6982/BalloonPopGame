@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Balloon Pop</string>
+    <string name="title_activity_main">Balloon Pop</string>
+    <string name="package_name">com.ahmetceylan.balloonpop</string>
+    <string name="custom_url_scheme">com.ahmetceylan.balloonpop</string>
+</resources>

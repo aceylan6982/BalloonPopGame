@@ -1,0 +1,20 @@
+{
+  "name": "balloon-pop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Balloon Pop game with Capacitor",
+  "scripts": {
+    "start": "python3 -m http.server 5500",
+    "cap:sync": "npx cap sync",
+    "cap:android": "npx cap open android",
+    "cap:ios": "npx cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/android": "6.2.1",
+    "@capacitor/core": "6.2.1",
+    "@capacitor/ios": "^6.2.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "6.2.1"
+  }
+}

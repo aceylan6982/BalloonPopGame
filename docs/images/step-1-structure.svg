@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+  <rect width="900" height="360" fill="#f8fafc"/>
+  <text x="30" y="44" font-size="28" font-family="Verdana" fill="#0f172a">Adim 1 - HTML Yapisı</text>
+  <rect x="35" y="70" width="830" height="260" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="70" y="100" width="760" height="95" rx="10" fill="#e2e8f0"/>
+  <text x="90" y="130" font-size="22" font-family="Verdana" fill="#0f172a">header.hud</text>
+  <text x="90" y="160" font-size="18" font-family="Verdana" fill="#334155">Baslik + Skor + Sure + Baslat Butonu</text>
+  <rect x="70" y="210" width="760" height="95" rx="10" fill="#dbeafe"/>
+  <text x="90" y="242" font-size="22" font-family="Verdana" fill="#0f172a">section#gameArea</text>
+  <text x="90" y="272" font-size="18" font-family="Verdana" fill="#334155">Balonlarin olustugu oyun alani</text>
+</svg>

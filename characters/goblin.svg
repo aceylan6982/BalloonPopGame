@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <radialGradient id="gobBg" cx="50%" cy="40%" r="65%">
+      <stop offset="0" stop-color="#d7f3a2"/>
+      <stop offset="1" stop-color="#547d2a"/>
+    </radialGradient>
+    <linearGradient id="gobSkin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b7de74"/>
+      <stop offset="1" stop-color="#5d8c2f"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="130" rx="102" ry="96" fill="url(#gobBg)"/>
+  <path d="M36 171c0-54 36-98 90-105 61-8 116 33 120 91 4 62-45 103-112 103-58 0-98-33-98-89z" fill="url(#gobSkin)"/>
+  <path d="M43 128L12 110l34-17M214 128l30-18-35-18" stroke="#39581d" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <ellipse cx="100" cy="120" rx="11" ry="13" fill="#1c2910"/>
+  <ellipse cx="166" cy="120" rx="11" ry="13" fill="#1c2910"/>
+  <circle cx="103" cy="116" r="3" fill="#fff"/>
+  <circle cx="169" cy="116" r="3" fill="#fff"/>
+  <path d="M93 178c23-21 57-21 80 0" stroke="#243d13" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M113 180l-7 16M143 182l8 15" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+</svg>

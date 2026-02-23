@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <title>Balloon Pop</title>
+    <meta name="theme-color" content="#0f766e" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="monster.css" />
+  </head>
+  <body>
+    <main class="game-wrapper">
+      <header class="hud">
+        <h1>Balloon Pop</h1>
+        <div class="stats">
+          <p>Score: <span id="score">0</span></p>
+          <p>Time Left: <span id="time">30</span> s</p>
+          <p>Level: <span id="level">1</span></p>
+        </div>
+        <div class="controls">
+          <button id="startBtn">Start Game</button>
+          <button id="soundBtn" type="button">Sound: On</button>
+        </div>
+      </header>
+
+      <section id="gameArea" class="game-area" aria-label="Game area"></section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <radialGradient id="drBg" cx="50%" cy="40%" r="65%">
+      <stop offset="0" stop-color="#ffd4ae"/>
+      <stop offset="1" stop-color="#8e3a16"/>
+    </radialGradient>
+    <linearGradient id="drSkin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffae72"/>
+      <stop offset="1" stop-color="#b14d1c"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="130" rx="102" ry="96" fill="url(#drBg)"/>
+  <path d="M36 173c0-56 36-100 94-106 62-7 119 35 122 95 3 64-47 104-116 104-60 0-100-34-100-93z" fill="url(#drSkin)"/>
+  <path d="M74 88l15-30M187 88l-15-30M131 69l1-30" stroke="#6f2e10" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="101" cy="123" rx="12" ry="14" fill="#331208"/>
+  <ellipse cx="173" cy="123" rx="12" ry="14" fill="#331208"/>
+  <circle cx="104" cy="119" r="3" fill="#fff"/>
+  <circle cx="176" cy="119" r="3" fill="#fff"/>
+  <path d="M95 184c21 16 54 16 75 0" stroke="#44190a" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M118 187l-8 15M150 187l8 15" stroke="#fff7ed" stroke-width="6" stroke-linecap="round"/>
+</svg>

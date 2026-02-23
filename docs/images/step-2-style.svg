@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ecfeff"/>
+      <stop offset="100%" stop-color="#dbeafe"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="360" fill="#f8fafc"/>
+  <text x="30" y="44" font-size="28" font-family="Verdana" fill="#0f172a">Adim 2 - CSS Gorunumu</text>
+  <rect x="40" y="70" width="820" height="250" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="70" y="100" width="760" height="190" rx="16" fill="url(#bg)" stroke="#93c5fd" stroke-width="2"/>
+  <ellipse cx="220" cy="220" rx="30" ry="38" fill="#ef4444"/>
+  <line x1="220" y1="255" x2="220" y2="282" stroke="#64748b" stroke-width="2"/>
+  <ellipse cx="340" cy="185" rx="30" ry="38" fill="#22c55e"/>
+  <line x1="340" y1="220" x2="340" y2="247" stroke="#64748b" stroke-width="2"/>
+  <ellipse cx="460" cy="240" rx="30" ry="38" fill="#3b82f6"/>
+  <line x1="460" y1="275" x2="460" y2="302" stroke="#64748b" stroke-width="2"/>
+  <text x="560" y="175" font-size="18" font-family="Verdana" fill="#334155">.balloon</text>
+  <text x="560" y="205" font-size="16" font-family="Verdana" fill="#475569">Sekil + renk + yukari cikis animasyonu</text>
+</svg>
