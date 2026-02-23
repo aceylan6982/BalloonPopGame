@@ -8,3 +8,4 @@
 6. After each feature update, verify debug build: `./gradlew assembleDebug` (from `/android`).
 7. Keep the project structure compatible with Capacitor (`web/` assets + `android/`).
 8. Ensure all mobile changes remain compatible with iOS as well as Android.
+9. After user-approved updates, commit and push changes to GitHub (`origin/main`).
