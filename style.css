@@ -89,6 +89,18 @@ body {
   flex-wrap: wrap;
 }
 
+.goal-text {
+  margin: 0;
+  font-weight: 700;
+  color: #0f766e;
+}
+
+.phase-text {
+  margin: 0;
+  font-weight: 600;
+  color: #334155;
+}
+
 .game-area {
   margin-top: 16px;
   height: clamp(320px, calc(var(--app-vh, 1vh) * 62), 540px);
