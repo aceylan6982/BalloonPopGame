@@ -56,7 +56,7 @@
 
 /* Internet-sourced character art (OpenMoji, CC BY-SA 4.0) */
 .monster-target.monster-dino {
-  --monster-image: url("./characters/hq/dino.svg");
+  --monster-image: url("./characters/hq/dino-v2.svg");
 }
 
 .monster-target.monster-goblin {

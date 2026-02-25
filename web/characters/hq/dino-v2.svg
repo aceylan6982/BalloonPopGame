@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-label="Dinosaur head">
+  <defs>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6fd34b"/>
+      <stop offset="1" stop-color="#2a8a34"/>
+    </linearGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff3c1"/>
+      <stop offset="1" stop-color="#afcf85"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M34 138c0-56 38-100 98-110 59-10 115 18 142 66 18 31 13 73-11 101-23 27-60 42-99 40-74-3-130-34-130-97z" fill="url(#skin)"/>
+  <path d="M44 154c8-20 27-33 53-35l142-6c8 0 15 6 15 13 0 49-67 79-146 79-39 0-69-20-64-51z" fill="url(#jaw)"/>
+
+  <path d="M72 82l20-24 18 24M116 69l17-22 16 21M157 61l14-18 12 18" fill="none" stroke="#276b2a" stroke-width="8" stroke-linecap="round"/>
+
+  <ellipse cx="126" cy="102" rx="16" ry="18" fill="#101b12"/>
+  <circle cx="131" cy="97" r="4" fill="#fff"/>
+  <circle cx="131" cy="97" r="1.8" fill="#101b12"/>
+
+  <ellipse cx="180" cy="118" rx="6" ry="4" fill="#355f36"/>
+  <ellipse cx="197" cy="124" rx="5.5" ry="4" fill="#355f36"/>
+
+  <path d="M92 168c24 14 89 14 127-3" fill="none" stroke="#203f21" stroke-width="9" stroke-linecap="round"/>
+  <path d="M96 167c21 10 80 10 115-3" fill="none" stroke="#90be62" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+
+  <path d="M158 152l12 8 13-8" fill="none" stroke="#203f21" stroke-width="2.5"/>
+  <path d="M175 153l13 8 12-8" fill="none" stroke="#203f21" stroke-width="2.5"/>
+
+  <path d="M58 140c0-43 27-78 66-95" fill="none" stroke="#ecffd8" stroke-width="9" stroke-linecap="round" opacity="0.28"/>
+</svg>
