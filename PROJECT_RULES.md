@@ -9,3 +9,5 @@
 7. Keep the project structure compatible with Capacitor (`web/` assets + `android/`).
 8. Ensure all mobile changes remain compatible with iOS as well as Android.
 9. After user-approved updates, commit and push changes to GitHub (`origin/main`).
+10. Use `web/` as the only frontend source of truth; do not recreate duplicate root web files.
+11. Local testing must run from `web/` (`npm start`).
