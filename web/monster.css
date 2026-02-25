@@ -1,13 +1,13 @@
 .monster-target {
   position: absolute;
-  width: 96px;
-  height: 96px;
+  width: 104px;
+  height: 104px;
   border: none;
   border-radius: 0;
   padding: 0;
   background-color: transparent;
   box-shadow: none;
-  filter: drop-shadow(0 10px 12px rgba(15, 23, 42, 0.42));
+  filter: drop-shadow(0 12px 14px rgba(15, 23, 42, 0.42));
   cursor: url("./icons/cursor-pop.svg") 28 6, pointer;
   animation: float-up linear forwards;
   transform-origin: center;
@@ -32,7 +32,7 @@
   position: absolute;
   inset: 10px;
   border-radius: 999px;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0));
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.38), rgba(255, 255, 255, 0));
   opacity: 0;
   pointer-events: none;
 }
@@ -50,39 +50,40 @@
   animation: monster-pop 220ms ease-out forwards;
 }
 
+/* Internet-sourced character art (OpenMoji, CC BY-SA 4.0) */
 .monster-target.monster-dino {
-  --monster-image: url("./characters/dino.svg");
+  --monster-image: url("./characters/hq/dino.svg");
 }
 
 .monster-target.monster-goblin {
-  --monster-image: url("./characters/goblin.svg");
+  --monster-image: url("./characters/hq/goblin.svg");
 }
 
 .monster-target.monster-troll {
-  --monster-image: url("./characters/troll.svg");
+  --monster-image: url("./characters/hq/troll.svg");
 }
 
 .monster-target.monster-ghost {
-  --monster-image: url("./characters/ghost.svg");
+  --monster-image: url("./characters/hq/ghost.svg");
 }
 
 .monster-target.monster-dragon {
-  --monster-image: url("./characters/dragon.svg");
+  --monster-image: url("./characters/hq/dragon.svg");
 }
 
 .monster-target.monster-ostrich {
-  --monster-image: url("./characters/ostrich.svg");
+  --monster-image: url("./characters/hq/ostrich.svg");
 }
 
 @keyframes monster-idle {
   0% {
-    transform: translateY(0) rotate(-2.5deg) scale(1);
+    transform: translateY(0) rotate(-2deg) scale(1);
   }
   50% {
     transform: translateY(-3px) rotate(0deg) scale(1.035);
   }
   100% {
-    transform: translateY(0) rotate(2.5deg) scale(1);
+    transform: translateY(0) rotate(2deg) scale(1);
   }
 }
 
@@ -93,7 +94,7 @@
   }
   45% {
     transform: translateY(-2px) scale(1.1) rotate(-2deg);
-    filter: saturate(1.25);
+    filter: saturate(1.28);
   }
   100% {
     transform: translateY(0) scale(1.02);
@@ -126,7 +127,7 @@
 
 @media (max-width: 600px) {
   .monster-target {
-    width: 84px;
-    height: 84px;
+    width: 88px;
+    height: 88px;
   }
 }

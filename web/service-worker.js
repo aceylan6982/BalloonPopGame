@@ -1,4 +1,4 @@
-const CACHE_NAME = "balloon-pop-v5";
+const CACHE_NAME = "balloon-pop-v6";
 const ASSETS = [
   "/",
   "/index.html",
@@ -14,7 +14,13 @@ const ASSETS = [
   "/characters/troll.svg",
   "/characters/ghost.svg",
   "/characters/dragon.svg",
-  "/characters/ostrich.svg"
+  "/characters/ostrich.svg",
+  "/characters/hq/dino.svg",
+  "/characters/hq/goblin.svg",
+  "/characters/hq/troll.svg",
+  "/characters/hq/ghost.svg",
+  "/characters/hq/dragon.svg",
+  "/characters/hq/ostrich.svg",
 ];
 
 self.addEventListener("install", (event) => {
