@@ -222,3 +222,40 @@ body {
     height: clamp(220px, calc(var(--app-vh, 1vh) * 48), 320px);
   }
 }
+
+.countdown-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  opacity: 0;
+  transform: scale(0.94);
+  pointer-events: none;
+  z-index: 90;
+  background: rgba(15, 23, 42, 0.52);
+  transition: opacity 160ms ease, transform 160ms ease;
+}
+
+.countdown-overlay.show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.countdown-label {
+  color: #e2e8f0;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  font-size: clamp(16px, 2.4vw, 24px);
+  text-transform: uppercase;
+}
+
+.countdown-value {
+  color: #ffffff;
+  font-weight: 900;
+  line-height: 1;
+  text-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+  font-size: clamp(72px, 15vw, 150px);
+}

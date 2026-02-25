@@ -5,6 +5,7 @@ const levelEl = document.getElementById("level");
 const targetEl = document.getElementById("target");
 const goalTextEl = document.getElementById("goalText");
 const phaseTextEl = document.getElementById("phaseText");
+const countdownOverlayEl = document.getElementById("countdownOverlay");
 const startBtn = document.getElementById("startBtn");
 const soundBtn = document.getElementById("soundBtn");
 
@@ -61,6 +62,29 @@ function clearGameTimers() {
 
 function setPhaseText(text) {
   if (phaseTextEl) phaseTextEl.textContent = text;
+}
+
+function hideCountdownOverlay() {
+  if (!countdownOverlayEl) return;
+  countdownOverlayEl.classList.remove("show");
+  countdownOverlayEl.innerHTML = "";
+}
+
+function showCountdownOverlay(seconds, label) {
+  if (!countdownOverlayEl) return;
+  countdownOverlayEl.innerHTML = "";
+
+  const labelNode = document.createElement("span");
+  labelNode.className = "countdown-label";
+  labelNode.textContent = label;
+
+  const valueNode = document.createElement("span");
+  valueNode.className = "countdown-value";
+  valueNode.textContent = String(seconds);
+
+  countdownOverlayEl.appendChild(labelNode);
+  countdownOverlayEl.appendChild(valueNode);
+  countdownOverlayEl.classList.add("show");
 }
 
 function getCurrentLevelConfig() {
@@ -311,10 +335,11 @@ function scheduleNextLevel() {
   clearGameTimers();
   clearGameArea();
 
-  let countdown = 3;
+  let countdown = 5;
   setPhaseText(`Level ${level} complete. Next level in ${countdown}...`);
   startBtn.disabled = true;
   startBtn.textContent = "Preparing next level...";
+  showCountdownOverlay(countdown, `Level ${level} Complete`);
 
   transitionId = setInterval(() => {
     countdown -= 1;
@@ -322,11 +347,13 @@ function scheduleNextLevel() {
     if (countdown <= 0) {
       clearInterval(transitionId);
       transitionId = null;
+      hideCountdownOverlay();
       startLevel(currentLevelIndex + 1);
       return;
     }
 
     setPhaseText(`Level ${level} complete. Next level in ${countdown}...`);
+    showCountdownOverlay(countdown, `Level ${level} Complete`);
   }, 1000);
 }
 
@@ -335,6 +362,7 @@ function handleLevelTimeout() {
   gameRunning = false;
   clearGameTimers();
   clearGameArea();
+  hideCountdownOverlay();
 
   if (score >= config.target) {
     const isFinalLevel = currentLevelIndex === LEVELS.length - 1;
@@ -376,6 +404,7 @@ function startLevel(nextLevelIndex) {
   startBtn.disabled = true;
   startBtn.textContent = "Game in progress...";
   setPhaseText(`Level ${level} started. Hit the target score.`);
+  hideCountdownOverlay();
 
   clearGameArea();
   createBalloon();
@@ -395,6 +424,7 @@ function startLevel(nextLevelIndex) {
 function startGame() {
   ensureAudioContext();
   clearGameTimers();
+  hideCountdownOverlay();
 
   totalScore = 0;
   startLevel(0);
