@@ -4,7 +4,8 @@
   "private": true,
   "description": "Balloon Pop game with Capacitor",
   "scripts": {
-    "start": "python3 -m http.server 5500 -d web",
+    "start": "python3 -m http.server 5511 -d web",
+    "start:5500": "python3 -m http.server 5500 -d web",
     "cap:sync": "npx cap sync",
     "cap:android": "npx cap open android",
     "cap:ios": "npx cap open ios"
