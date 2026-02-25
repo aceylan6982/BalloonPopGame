@@ -56,7 +56,7 @@
 
 /* Internet-sourced character art (OpenMoji, CC BY-SA 4.0) */
 .monster-target.monster-captain {
-  --monster-image: url("./characters/hq/captain-caveman.svg");
+  --monster-image: url("./characters/hq/captain-caveman-v2.svg");
 }
 
 .monster-target.monster-goblin {

@@ -1,4 +1,4 @@
-const CACHE_NAME = "balloon-pop-v9";
+const CACHE_NAME = "balloon-pop-v10";
 const ASSETS = [
   "/",
   "/index.html",
@@ -14,7 +14,7 @@ const ASSETS = [
   "/characters/ghost.svg",
   "/characters/dragon.svg",
   "/characters/ostrich.svg",
-  "/characters/hq/captain-caveman.svg",
+  "/characters/hq/captain-caveman-v2.svg",
   "/characters/hq/goblin.svg",
   "/characters/hq/troll.svg",
   "/characters/hq/ghost.svg",
