@@ -281,8 +281,18 @@ function createBalloon() {
     }
 
     spawnSparks(centerX, centerY, balloon.dataset.popColor || "#ffffff");
-    balloon.classList.add("pop");
-    setTimeout(() => balloon.remove(), 160);
+
+    if (isMonster) {
+      balloon.classList.add("hit-react");
+      setTimeout(() => {
+        balloon.classList.remove("hit-react");
+        balloon.classList.add("pop");
+      }, 90);
+      setTimeout(() => balloon.remove(), 260);
+    } else {
+      balloon.classList.add("pop");
+      setTimeout(() => balloon.remove(), 160);
+    }
   });
 
   balloon.addEventListener("animationend", () => {
