@@ -238,7 +238,7 @@ function createBalloon() {
 
   balloon.className = isMonster ? `monster-target monster-${monsterType.name}` : "balloon";
   balloon.setAttribute("aria-label", isMonster ? "Mini monster" : "Balloon");
-  const targetWidth = isMonster ? 78 : 58;
+  const targetWidth = isMonster ? 88 : 58;
   const maxLeft = Math.max(8, gameArea.clientWidth - (targetWidth + 8));
   balloon.style.left = `${randomBetween(8, maxLeft)}px`;
   balloon.style.bottom = "-82px";

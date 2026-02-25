@@ -1,7 +1,7 @@
 .monster-target {
   position: absolute;
-  width: 88px;
-  height: 88px;
+  width: 96px;
+  height: 96px;
   border: none;
   border-radius: 0;
   padding: 0;
@@ -64,7 +64,7 @@
 
 @media (max-width: 600px) {
   .monster-target {
-    width: 76px;
-    height: 76px;
+    width: 84px;
+    height: 84px;
   }
 }
