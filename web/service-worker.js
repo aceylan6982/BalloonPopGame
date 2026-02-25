@@ -1,4 +1,4 @@
-const CACHE_NAME = "patlayan-balon-v4";
+const CACHE_NAME = "balloon-pop-v5";
 const ASSETS = [
   "/",
   "/index.html",
