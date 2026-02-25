@@ -36,7 +36,7 @@ const LEVELS = [
 
 const balloonColors = ["#ef4444", "#f59e0b", "#10b981", "#3b82f6", "#a855f7"];
 const monsterTypes = [
-  { name: "dino", color: "#22d3ee" },
+  { name: "captain", color: "#facc15" },
   { name: "goblin", color: "#84cc16" },
   { name: "troll", color: "#06b6d4" },
   { name: "ghost", color: "#e2e8f0" },
